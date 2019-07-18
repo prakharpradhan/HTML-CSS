@@ -1,0 +1,27 @@
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+#name{
+    display: none;
+    font-size: 15px;
+    color: red;
+
+}
+#dob{
+    display: none;
+    font-size: 15px;
+    color: red;
+
+}
+#phone{
+    display: none;
+    font-size: 15px;
+    color: red;
+
+}
+#email{
+    display: none;
+    font-size: 15px;
+    color: red;
+}
