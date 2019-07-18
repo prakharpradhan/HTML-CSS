@@ -1,0 +1,14 @@
+table, td {
+  border: 1px dashed black;
+  border-collapse: collapse;
+}
+th{
+	color: white;
+	background-color: red;
+}
+body {
+  
+   background-image: url("images/download.jpg");
+   background-position: top right;
+     background-repeat: no-repeat;
+}
