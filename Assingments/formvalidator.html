@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>
+        FORM VALIDATOR
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/form.css" />
+</head>
+
+<body>
+    <div class="main">
+        <form name="cal">
+            <label>Name:</label>
+            <input type="text" id="t1" name="name" required placeholder="enter your name" onblur="validatename()" />
+            <span id="name" name="namespan">Enter Your Name between 3 to 10 Character</span><br>
+            <label>Date Of Birth: </label>
+            <input type=" text" id="t2" name="dob" required placeholder="DD/MM/YYYY" onblur="validateDob()" />
+            <span id="dob">Enter Your DOB in dd/mm/yyyy format</span><br>
+            <label>Phone Number :</label>
+            <input type="text" id="t3" name="phone" required placeholder="enter 10 digit phone number" onblur="validatePhoneNumber()" />
+            <span id="phone">Enter Valid Phone Number</span><br>
+            <label>EMAIL :</label>
+            <input type="text" id="t4" name="email" required placeholder="enter email id" onblur="validateEmail()" /> 
+            <span  id="email">Enter Valid Email</span><br>
+            <input type="button" id="add" value="SUBMIT DETAILS" onclick="submitdata()" />
+
+        </form>
+    </div>
+    <script src="js/form.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>
+        CALCULATOR
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/cal.css" />
+</head>
+
+<body>
+    <div class="main">
+        <form name="cal">
+            <label>Enter First Number:</label>
+            <input type="text" id="t1" name="fNo" placeholder="Enter number only" onchange="buttoncheck()" /><br>
+            <label>Enter Second Number: </label>
+            <input type="text" id="t2"  name="sNo" placeholder="Enter number only" onchange="buttoncheck()" /><br>
+            <label>Result :</label>
+            <input type="text" id="t3" name="rslt" placeholder="Result" disabled /><br>
+            <input type="button" id="add" value="ADD" onclick="oprt('add')" disabled />
+            <input type="button" id="sub" onclick="oprt('sub')" value="SUB" disabled />
+            <input type="button" id="mul" onclick="oprt('mul')" value="MULTIPLY" disabled />
+            <input type="button" id="divide" onclick="oprt('divide')" value="DIVIDE" disabled />
+        </form>
+    </div>
+    <script src="js/cal.js"></script>
+</body>
+
+</html>
